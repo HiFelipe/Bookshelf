@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+main {
+    text-align: center;
+    display: Flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 80vh;
+}
+
+.apresentacao {
+    line-height: 2.5rem;
+}
+
+.explore-catalogo h2, p {
+    line-height: 2.5rem;
+}
+
+img {
+    width: 300px
+}
+
+.catalogo {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    margin-top: 15px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.categoria {
+    background-color: #2680CE;
+}
+
+.opcao {
+    background-color: #000000;
+}
+
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2px;
+    margin-top: 30px;
+}
+  
